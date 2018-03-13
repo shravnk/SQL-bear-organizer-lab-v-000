@@ -22,7 +22,7 @@ def selects_most_prominent_color_and_returns_with_count
   "SELECT color, COUNT(*) AS FREQUENCY
   FROM bears
   GROUP BY color
-  HAVING COUNT(*) >= ALL(
+  HAVING COUNT(*) >= ALL (
   SELECT COUNT(*)
   FROM bears
   GROUP BY color
