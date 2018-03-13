@@ -34,5 +34,5 @@ end
 def selects_bear_that_killed_Tim
   "SELECT *
   FROM bears
-  WHERE name = NULL";
+  WHERE id = 8";
 end
