@@ -20,7 +20,7 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "SELECT color, COUNT(*) AS FREQUENCY
-  FROM bears 
+  FROM bears
   GROUP BY color DESC LIMIT 1;"
 end
 
